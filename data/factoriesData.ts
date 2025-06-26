@@ -1,0 +1,236 @@
+import { Factory } from '@/types';
+
+const factoriesData: Factory[] = [
+  {
+    id: '1',
+    name: 'Khader Leathers',
+    location: 'Chennai, India',
+    verified: true,
+    story:
+      'Founded in 1978, Khader Leathers has been a pioneer in sustainable leather manufacturing. Our family-owned atelier specializes in small batch, high-quality leather goods with a focus on environmental responsibility and artisan craftsmanship. We use traditional tanning methods passed down through generations, combined with modern techniques for durability and consistency.',
+    featuredImage:
+      'https://images.pexels.com/photos/5755160/pexels-photo-5755160.jpeg',
+    instagram: '@khaderleathers',
+    website: 'https://khaderleathers.com',
+    gallery: [
+      'https://images.pexels.com/photos/5755161/pexels-photo-5755161.jpeg',
+      'https://images.pexels.com/photos/5755162/pexels-photo-5755162.jpeg',
+      'https://images.pexels.com/photos/5755163/pexels-photo-5755163.jpeg',
+      'https://images.pexels.com/photos/5755164/pexels-photo-5755164.jpeg',
+    ],
+    moq: 30,
+    leatherTypes: ['CowHide', 'LambSkin'],
+    tanningTypes: ['Vegetable'],
+    finishes: ['Distressed', 'Polished', 'Matte'],
+    productCategories: ['Bags', 'Jackets'],
+  },
+  {
+    id: '2',
+    name: 'Arora Fine Leathers',
+    location: 'Delhi, India',
+    verified: true,
+    story:
+      "Arora Fine Leathers brings three decades of expertise to luxury leather crafting. Our studio specializes in premium quality leather for fashion accessories, with a particular expertise in exotic finishes and embossing techniques. We've been trusted partners for international luxury brands who value our attention to detail and consistency.",
+    featuredImage:
+      'https://images.pexels.com/photos/5755165/pexels-photo-5755165.jpeg',
+    instagram: '@arorafine',
+    website: 'https://arorafine.com',
+    gallery: [
+      'https://images.pexels.com/photos/5755166/pexels-photo-5755166.jpeg',
+      'https://images.pexels.com/photos/5755167/pexels-photo-5755167.jpeg',
+      'https://images.pexels.com/photos/5755168/pexels-photo-5755168.jpeg',
+      'https://images.pexels.com/photos/5755169/pexels-photo-5755169.jpeg',
+    ],
+    moq: 50,
+    leatherTypes: ['LambSkin', 'GoatSkin'],
+    tanningTypes: ['Chrome', 'Vegetable'],
+    finishes: ['Pebbled', 'Suede', 'Polished'],
+    productCategories: ['Belts', 'Wallets'],
+  },
+  {
+    id: '3',
+    name: 'Mehta Leather Works',
+    location: 'Kolkata, India',
+    verified: true,
+    story:
+      'Specializing in minimalist, contemporary leather goods, Mehta Leather Works has built a reputation for precision and quality since 2005. Our workshop creates leather pieces with clean lines and perfect stitching, appealing to modern, design-focused brands. We balance traditional craftsmanship with innovative techniques to create leather goods that are both timeless and contemporary.',
+    featuredImage:
+      'https://images.pexels.com/photos/5755170/pexels-photo-5755170.jpeg',
+    instagram: '@mehtaleather',
+    website: 'https://mehtaleather.com',
+    gallery: [
+      'https://images.pexels.com/photos/5755171/pexels-photo-5755171.jpeg',
+      'https://images.pexels.com/photos/5755172/pexels-photo-5755172.jpeg',
+      'https://images.pexels.com/photos/5755173/pexels-photo-5755173.jpeg',
+      'https://images.pexels.com/photos/5755174/pexels-photo-5755174.jpeg',
+    ],
+    moq: 25,
+    leatherTypes: ['CowHide', 'GoatSkin'],
+    tanningTypes: ['Chrome'],
+    finishes: ['Matte', 'Polished', 'Suede'],
+    productCategories: ['Bags'],
+  },
+  {
+    id: '4',
+    name: 'Sharma & Sons',
+    location: 'Mumbai, India',
+    verified: false,
+    story:
+      'Sharma & Sons has been crafting fine leather since 1992, focusing on traditional techniques with modern applications. Our team specializes in small leather accessories that showcase intricate detailing and superior finishing. We work closely with designers to bring their visions to life, priding ourselves on communication and collaboration throughout the development process.',
+    featuredImage:
+      'https://images.pexels.com/photos/5755175/pexels-photo-5755175.jpeg',
+    instagram: '@sharmasonsleather',
+    website: 'https://sharmasonsleather.com',
+    gallery: [
+      'https://images.pexels.com/photos/5755176/pexels-photo-5755176.jpeg',
+      'https://images.pexels.com/photos/5755177/pexels-photo-5755177.jpeg',
+      'https://images.pexels.com/photos/5755178/pexels-photo-5755178.jpeg',
+      'https://images.pexels.com/photos/5755179/pexels-photo-5755179.jpeg',
+    ],
+    moq: 100,
+    leatherTypes: ['CowHide', 'GoatSkin'],
+    tanningTypes: ['Vegetable'],
+    finishes: ['Distressed', 'Pebbled'],
+    productCategories: ['Wallets', 'Belts'],
+  },
+  {
+    id: '5',
+    name: 'Explicit Leather Group',
+    location: 'India',
+    verified: true,
+    story:
+      'The company was formulated in 1985 by Dr. (Lt.Col) G.S.Bali after Retiring prematurely to fulfill his ambition in business from the Indian Army. He is a technocrat with a PHD degree from the US in Meat Technology and a veterinarian with over forty years of experience in the animal/meat trade.\n\nMr Harveen Singh Bali, the present Managing Director joined the business in 1987, is a leather technologist well experienced in the leather finishing and garment manufacturing. Mr.Harveen Bali completed B.Sc in Microbiology and acquired Diploma in Leather Technology from a reputed institute of India, CLRI (Central Leather Research Institute) Chennai. He is now using the technical knowledge so gained in his existing units to the fullest extent and putting his 31 Years of experience in the leather industry to best use as a technocrat, being the driving force behind the organisation.',
+    instagram: 'explicitleathers',
+    website: 'https://www.explicitleathergroup.com/',
+    gallery: [
+      'https://images.pexels.com/photos/5755180/pexels-photo-5755180.jpeg',
+      'https://images.pexels.com/photos/5755181/pexels-photo-5755181.jpeg',
+      'https://images.pexels.com/photos/5755182/pexels-photo-5755182.jpeg',
+      'https://images.pexels.com/photos/5755183/pexels-photo-5755183.jpeg',
+    ],
+    featuredImage:
+      'https://images.pexels.com/photos/5755184/pexels-photo-5755184.jpeg',
+    moq: 50,
+    leatherTypes: ['CowHide', 'GoatSkin', 'LambSkin'],
+    tanningTypes: ['Chrome', 'Vegetable'],
+    finishes: ['Polished', 'Matte', 'Pebbled', 'Suede'],
+    productCategories: ['Jackets', 'Bags'],
+  },
+  {
+    id: '6',
+    name: 'Heritage Tannery',
+    location: 'Kanpur, India',
+    verified: true,
+    story:
+      'Heritage Tannery is renowned for its expertise in traditional vegetable tanning methods. Our century-old techniques have been refined over generations, producing leather with unmatched character and durability. We specialize in full-grain leather processing and are committed to sustainable practices.',
+    featuredImage:
+      'https://images.pexels.com/photos/5755185/pexels-photo-5755185.jpeg',
+    instagram: '@heritagetannery',
+    website: 'https://heritagetannery.com',
+    gallery: [
+      'https://images.pexels.com/photos/5755186/pexels-photo-5755186.jpeg',
+      'https://images.pexels.com/photos/5755187/pexels-photo-5755187.jpeg',
+      'https://images.pexels.com/photos/5755188/pexels-photo-5755188.jpeg',
+      'https://images.pexels.com/photos/5755189/pexels-photo-5755189.jpeg',
+    ],
+    moq: 75,
+    leatherTypes: ['CowHide'],
+    tanningTypes: ['Vegetable'],
+    finishes: ['Distressed', 'Matte'],
+    productCategories: ['Belts'],
+  },
+  {
+    id: '7',
+    name: 'Modern Leather Solutions',
+    location: 'Bangalore, India',
+    verified: true,
+    story:
+      'Modern Leather Solutions combines cutting-edge technology with artisanal expertise. Our state-of-the-art facility specializes in innovative leather treatments and finishes, catering to contemporary fashion brands. We pride ourselves on quick turnaround times without compromising on quality.',
+    featuredImage:
+      'https://images.pexels.com/photos/5755190/pexels-photo-5755190.jpeg',
+    instagram: '@modernleather',
+    website: 'https://modernleather.com',
+    gallery: [
+      'https://images.pexels.com/photos/5755191/pexels-photo-5755191.jpeg',
+      'https://images.pexels.com/photos/5755192/pexels-photo-5755192.jpeg',
+      'https://images.pexels.com/photos/5755193/pexels-photo-5755193.jpeg',
+      'https://images.pexels.com/photos/5755194/pexels-photo-5755194.jpeg',
+    ],
+    moq: 40,
+    leatherTypes: ['GoatSkin', 'LambSkin'],
+    tanningTypes: ['Chrome'],
+    finishes: ['Polished', 'Suede', 'Pebbled'],
+    productCategories: ['Jackets', 'Bags'],
+  },
+  {
+    id: '8',
+    name: 'Luxury Leather Craft',
+    location: 'Agra, India',
+    verified: true,
+    story:
+      'Luxury Leather Craft has been serving high-end fashion houses for over four decades. Our expertise lies in handling exotic leathers and creating unique finishes. Each piece of leather that leaves our facility undergoes rigorous quality checks to ensure it meets the highest standards of luxury leather goods.',
+    featuredImage:
+      'https://images.pexels.com/photos/5755195/pexels-photo-5755195.jpeg',
+    instagram: '@luxuryleather',
+    website: 'https://luxuryleather.com',
+    gallery: [
+      'https://images.pexels.com/photos/5755196/pexels-photo-5755196.jpeg',
+      'https://images.pexels.com/photos/5755197/pexels-photo-5755197.jpeg',
+      'https://images.pexels.com/photos/5755198/pexels-photo-5755198.jpeg',
+      'https://images.pexels.com/photos/5755199/pexels-photo-5755199.jpeg',
+    ],
+    moq: 25,
+    leatherTypes: ['LambSkin'],
+    tanningTypes: ['Chrome', 'Vegetable'],
+    finishes: ['Polished', 'Suede'],
+    productCategories: ['Wallets'],
+  },
+  {
+    id: '9',
+    name: 'Eco Leather Works',
+    location: 'Pune, India',
+    verified: true,
+    story:
+      'Eco Leather Works is at the forefront of sustainable leather manufacturing. We use innovative eco-friendly tanning processes and natural dyes. Our commitment to environmental responsibility extends throughout our supply chain, from sourcing to final processing.',
+    featuredImage:
+      'https://images.pexels.com/photos/5755200/pexels-photo-5755200.jpeg',
+    instagram: '@ecoleather',
+    website: 'https://ecoleather.com',
+    gallery: [
+      'https://images.pexels.com/photos/5755201/pexels-photo-5755201.jpeg',
+      'https://images.pexels.com/photos/5755202/pexels-photo-5755202.jpeg',
+      'https://images.pexels.com/photos/5755203/pexels-photo-5755203.jpeg',
+      'https://images.pexels.com/photos/5755204/pexels-photo-5755204.jpeg',
+    ],
+    moq: 60,
+    leatherTypes: ['CowHide', 'GoatSkin'],
+    tanningTypes: ['Vegetable'],
+    finishes: ['Matte', 'Distressed'],
+    productCategories: ['Belts'],
+  },
+  {
+    id: '10',
+    name: 'Premium Leather Industries',
+    location: 'Hyderabad, India',
+    verified: false,
+    story:
+      "Premium Leather Industries specializes in small-batch, high-quality leather processing. Our focus is on creating unique finishes and textures that set our clients' products apart. We work closely with designers to develop custom solutions that meet their specific requirements.",
+    featuredImage:
+      'https://images.pexels.com/photos/5755205/pexels-photo-5755205.jpeg',
+    instagram: '@premiumleather',
+    website: 'https://premiumleather.com',
+    gallery: [
+      'https://images.pexels.com/photos/5755206/pexels-photo-5755206.jpeg',
+      'https://images.pexels.com/photos/5755207/pexels-photo-5755207.jpeg',
+      'https://images.pexels.com/photos/5755208/pexels-photo-5755208.jpeg',
+      'https://images.pexels.com/photos/5755209/pexels-photo-5755209.jpeg',
+    ],
+    moq: 35,
+    leatherTypes: ['GoatSkin', 'LambSkin'],
+    tanningTypes: ['Chrome'],
+    finishes: ['Pebbled', 'Polished', 'Suede'],
+    productCategories: ['Bags'],
+  },
+];
+
+export default factoriesData;

@@ -1,0 +1,1 @@
+// Content from app/(auth)/onboarding.tsx
